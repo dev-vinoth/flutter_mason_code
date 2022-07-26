@@ -29,4 +29,4 @@ To add mason to global, please use below commands
 
 - [From Git Url]
 
-```mason add -g feature_bloc --git-url  ```
+```mason add -g feature_bloc --git-url https://github.com/dev-vinoth/flutter_mason_code --git-ref flutter_template --git-path feature_bloc```
