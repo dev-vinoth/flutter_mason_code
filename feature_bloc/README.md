@@ -20,13 +20,40 @@ A few resources to get you started if this is your first brick template:
 [3]: https://verygood.ventures/blog/code-generation-with-mason
 [4]: https://youtu.be/G4PTjA6tpTU
 
+## Mason Commands
 
-To add mason to global, please use below commands
+### To add mason to global, please use below commands
 
-- [From Path]
+- #### From Path
 
-```mason add -g feature_bloc --path /Users/****/Documents/Workspace/FlutterWorkspace/utils/mason_template/feature_bloc```
+```
+mason add -g feature_bloc --path /Users/****/Documents/Workspace/FlutterWorkspace/utils/mason_template/feature_bloc 
+```
 
-- [From Git Url]
+- #### From Git Url
+```
+mason add -g feature_bloc --git-url https://github.com/dev-vinoth/flutter_mason_code --git-ref flutter_template --git-path feature_bloc
+```
 
-```mason add -g feature_bloc --git-url https://github.com/dev-vinoth/flutter_mason_code --git-ref flutter_template --git-path feature_bloc```
+### Other Mason Commands
+
+- #### List all installed bricks globally
+```
+mason list --global
+```
+- #### Make brick (i.e) feature_bloc
+```
+mason make feature_bloc
+```
+-----------------------------------------------------
+## Setup new mason project
+
+- #### Initialize mason
+```
+mason init
+```
+
+- #### Create new brick
+```
+mason new feature_bloc -d "A new Feature Bloc template"
+```
